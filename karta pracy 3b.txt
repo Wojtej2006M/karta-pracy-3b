@@ -1,0 +1,108 @@
+//zad 1
+//Napisz pętle wypisujacą dni miesiąca listopada 2022 roku
+using System.Security.Cryptography.X509Certificates;
+
+/*for (int i = 1; i < 31; i++)
+{
+    Console.WriteLine(i+".11.2022");
+}
+Console.Clear();*/
+//zad 2
+//Napisz pętle wypisujacą kwadraty cyfr nieparzystych
+/*int kwadrat = 0;
+int j = 0;
+for (int i = 1; i < 100; i++)
+{
+
+    if (i % 2 == 0)
+    {
+
+    }
+    else
+    {
+        Console.Write(i + " nieparzyste ");
+        kwadrat = i * i;
+        Console.Write(" potęga do kwadratu " + kwadrat);
+    }
+    Console.WriteLine();
+}
+Console.Clear();*/
+//zad 3
+//Napisz pętle wypisującą liczby czterocyfrowe dzielące się przez 379
+/*for (int i = 1000; i < 10000; i++)
+{
+    if (i%375==0)
+    {
+        Console.WriteLine(i);
+    }
+}
+Console.Clear();*/
+//zad 4
+//Napisz pętle wypisującą liczby trzycyfrowe podzielne przez 5, 6 lub ewentualnie 11
+/*for (int i = 100; i < 1000; i++)
+{
+    if (i%5==0||i%6==0||i%11==0)
+    {
+        Console.WriteLine(i);
+    }
+}
+Console.Clear();*/
+//zad 5
+//Napisz program, który podaje sumę wpisanych przez usera liczb. User najpierw podaje ile liczb
+//poda, a potem w pętli te liczby są czytane.
+/*Console.WriteLine("Podaj ile liczby chcesz wpisać");
+*//*int a = int.Parse(Console.ReadLine());
+int b = 0;
+for (int i = 0; i < a; i++)
+{
+    Console.WriteLine("podaj liczbe");
+    b+= int.Parse(Console.ReadLine());
+}
+Console.WriteLine(b);
+Console.Clear();*/
+
+//zad 6
+//Napisz program wyznaczający sumę k początkowych liczb parzystych.
+/*int k = int.Parse(Console.ReadLine());
+int suma = 0;
+for (int i = 0; i < k; i++)
+{
+    if (i%2==0)
+    {
+        suma += i;
+    }
+}
+Console.WriteLine(suma);
+Console.Clear();*/
+//zad 7
+//Napisz program wyznaczający sumę m początkowych dwucyfrowych liczb nieparzystych.
+/*int m=int.Parse(Console.ReadLine());
+int s = 0;
+for (int i = 1; i < m+1; i++)
+{
+    if (i%2==0)
+    {
+        Console.WriteLine(i+" liczba parzysta");
+    }
+    else
+    {
+        if (i<100)
+        {
+            s += i;
+        }
+    }
+
+}
+Console.WriteLine("suma nieparzystych "+s);*/
+//zad 8
+//Napisz program, który W PĘTLI obliczy wartość inwestycji, która jest kapitalizowana co
+//miesiąc w stosunku 6% rocznie. User podaje kwotę wejściową W0 oraz okres inwestycji w latach L z dokładnością do pół roku.
+/*double w = int.Parse(Console.ReadLine());
+int L = int.Parse(Console.ReadLine());
+double proc = 0;
+for (int i = 0; i < L; i++)
+{
+    proc = 0.06 * w;
+    w += proc;
+}
+Console.WriteLine(Math.Round(w));*/
